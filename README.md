@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Eww Today 🕒
 
-## Getting Started
+- RAW DOG V: I'm making this cause it's hard to find more money doing what I love. Coding and drinking Coffee or Celsius
+- AI V: A free, glanceable dashboard for people who love coding, coffee (or Celsius), and just need the essentials to get through the day.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Eww Today** is a simple "Magic Mirror"-style web dashboard that shows:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Current time and date
+- Next upcoming event (mocked from Google Calendar for now)
+- Quick task list
+- Daily quote
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💡 Why Make This?
 
-## Learn More
+I have time. I have dreams. I have will.  
+Finding more money doing what I love is hard, so I'm building something small but useful for myself — and maybe for you too.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js** (App Router)
+- **Tailwind CSS** + **DaisyUI** (themes: `wireframe`, `black`) for public-facing pages
+- **React Spectrum** for the dashboard UI (accessibility-first)
+- **AWS IAM** (practice + S3 for future assets)
+- **Supabase** for user profile settings (future)
 
-## Deploy on Vercel
+## 📦 MVP Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ Clock + date
+- ✅ "Up next" event card
+- ✅ Task list
+- ✅ Quote card
+- 💤 Mock API routes for now (`/api/events`, `/api/tasks`, `/api/quote`)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🗺 Roadmap
+
+- 🔄 Google Calendar sync
+- ☁ Weather widget
+- 🚫 Ads removed for Supporters ($8/year)
+- ⌨ Keyboard-only power mode
+
+---
