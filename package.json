@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@adobe/react-spectrum": "^3.43.0",
     "daisyui": "^5.0.50",
+    "glob": "^11.0.3",
     "next": "15.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0"
